@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/galaxys2plus-common/proprietary/bin/mttlogger:system/bin/mttlogger \
     vendor/samsung/galaxys2plus-common/proprietary/bin/npsmobex:system/bin/npsmobex \
-    vendor/samsung/galaxys2plus-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/galaxys2plus-common/proprietary/bin/tvserver:system/bin/tvserver \
     vendor/samsung/galaxys2plus-common/proprietary/bin/vcdbg:system/bin/vcdbg \
     vendor/samsung/galaxys2plus-common/proprietary/bin/vclmk:system/bin/vclmk \
@@ -60,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/lib/lib_SoundAlive_V01013n.so:system/lib/lib_SoundAlive_V01013n.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libat.so:system/lib/libat.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
+        vendor/samsung/galaxys2plus-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
@@ -80,13 +80,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libmmal_util.so:system/lib/libmmal_util.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libmmal_vc.so:system/lib/libmmal_vc.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libomxmmal.so:system/lib/libomxmmal.so \
-    vendor/samsung/galaxys2plus-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libseckeyprov.so:system/lib/libseckeyprov.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/galaxys2plus-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libsmct.so:system/lib/libsmct.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libsoc.so:system/lib/libsoc.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
